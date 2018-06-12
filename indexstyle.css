@@ -1,20 +1,23 @@
 
 body {
-  background-color: #333333;
-  border-left: 4px solid #bf0000;
-  border-right: 4px solid #bf0000;
-  margin-top:0;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin: 0;
   padding: 0;}
+
+  #navcontainer {
+    background-image: url("homepage.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
 
   #navbar {
       list-style-type: none;
-      position: sticky;
+      position: absolute;
       padding: 0;
       margin: 0;
-      overflow: hidden;
-      background-color: #2d2d2d;
+      top: 30px;
+      right: 15%;
   }
 
   li {
@@ -27,12 +30,9 @@ body {
       text-align: center;
       padding: 16px 17px;
       text-decoration: none;
-      font-family: 'Heebo', sans-serif;
-      font-weight: bold;
-      font-size: 12px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: normal;
+      font-size: 16px;
   }
-
-  #un {font-size: 15px}
-  #federico {font-size: 15px}
 
   li a:hover {background-color: #bf0000}
