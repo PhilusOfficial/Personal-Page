@@ -9,9 +9,8 @@ body {
     background-repeat: no-repeat;
     height: 800px;
     width: 100%;
-    position: absolute;
+    display: block;
     margin: 0;
-    padding: 0;
   }
 
   #navbar {
@@ -59,7 +58,7 @@ body {
   font-weight: 300;
   position: absolute;
   text-align: center;
-  top: 380px;
+  top: 378px;
   left: 50%;
   transform: translate(-50%,-50%);
   font-family: 'Roboto', sans-serif;
@@ -70,10 +69,8 @@ body {
 /*-----------------------------------------------------------------------------------------------------*/
 
 #section1 {
-  top: 800px;
-  position: absolute;
-  margin:0;
-  padding:0;
+  display: block;
+  margin: 0 auto;
   height: 600px;
   width: 100%;
   background-color: #181823;
