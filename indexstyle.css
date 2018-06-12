@@ -6,6 +6,7 @@ body {
   #navcontainer {
     background-image: url("homepage.jpg");
     background-size: 100%;
+    background-repeat: no-repeat;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -35,4 +36,4 @@ body {
       font-size: 16px;
   }
 
-  li a:hover {background-color: #bf0000}
+  li a:hover {background: rgba(200, 0, 0, 0.5); border-radius: 2px;}
