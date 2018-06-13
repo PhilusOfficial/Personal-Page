@@ -5,7 +5,7 @@ body {
 
   #navcontainer {
     background-image: url("homepage.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 800px;
     width: 100%;
@@ -44,7 +44,7 @@ body {
 #title {
   position: absolute;
   text-align: center;
-  top: 300px;
+  top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   font-family: 'Roboto', sans-serif;
@@ -54,24 +54,38 @@ body {
 
 #hi {font-weight: 300; font-size: 35px;}
 #myname {font-weight: 700; font-size: 40px;}
-#websurfer {
-  font-weight: 300;
-  position: absolute;
-  text-align: center;
-  top: 378px;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px;
-  color: white;
-}
+#websurfer {font-weight: 300; font-size: 20px;}
 
 /*-----------------------------------------------------------------------------------------------------*/
 
 #section1 {
+  clear: none;
   display: block;
   margin: 0 auto;
   height: 600px;
   width: 100%;
   background-color: #181823;
+  float: left;
+}
+
+#student {
+  width: 600px;
+  height: 130px;
+  margin: 0 auto;
+  top: 300px;}
+
+#polilogo {
+  background-color: red;
+  height: 30%;
+  width: 30%;
+}
+
+#studenttext {
+  background-color: blue;
+  height: 30%;
+  width: 30%;
+  color: white;
+  text-align: left;
+  padding-right: 100px;
+  padding-left: 20px;
 }
