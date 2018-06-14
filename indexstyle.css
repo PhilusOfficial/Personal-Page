@@ -1,7 +1,10 @@
 
 body {
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;}
+
+  /*-----------------------------------------------------------------------------------------------------*/
 
   #navcontainer {
     background-image: url("homepage.jpg");
@@ -32,7 +35,6 @@ body {
       text-align: center;
       padding: 16px 17px;
       text-decoration: none;
-      font-family: 'Roboto', sans-serif;
       font-weight: 700;
       font-size: 16px;
   }
@@ -47,7 +49,6 @@ body {
   top: 400px;
   left: 50%;
   transform: translate(-50%,-50%);
-  font-family: 'Roboto', sans-serif;
   color: white;
   line-height: 50px;
 }
@@ -58,6 +59,18 @@ body {
 
 /*-----------------------------------------------------------------------------------------------------*/
 
+.subtitle {
+  font-weight: 700;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+}
+
+.subtext {
+  font-weight: 300;
+  font-size: 20px;
+}
+
 #section1 {
   clear: none;
   display: block;
@@ -65,29 +78,41 @@ body {
   height: 140px;
   width: 100%;
   background-color: #181823;
-  float: left;
-  padding-top: 280px;
-  padding-bottom: 280px;
+  padding-top: 200px;
+  padding-bottom: 250px;
+  text-align: center;
+  border: 1px solid white;
 }
 
-#studenttable {
-  margin: 0 auto;
+#polititle {
+  display: block;
+  height: 100px;
   width: 600px;
-  height: 140px;
-  top: 300px;}
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+  position: relative;
+}
 
 #polilogo {
-  background-color: red;
-  height: 30%;
-  width: 30%;
+  background-image: url("polilogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 140px;
+  width: 200px;
+  border: 1px solid white;
+  vertical-align: top;
 }
 
-#studenttext {
-  background-color: blue;
-  height: 30%;
-  width: 30%;
+#politext {
+  display: inline-block;
+  height: 140px;
+  width: 400px;
   color: white;
-  text-align: left;
-  padding-right: 100px;
-  padding-left: 20px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 1px solid white;
 }
