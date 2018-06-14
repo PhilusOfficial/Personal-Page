@@ -44,7 +44,7 @@ body {
 #title {
   position: absolute;
   text-align: center;
-  top: 50%;
+  top: 375px;
   left: 50%;
   transform: translate(-50%,-50%);
   font-family: 'Roboto', sans-serif;
