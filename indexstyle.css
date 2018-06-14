@@ -62,16 +62,18 @@ body {
   clear: none;
   display: block;
   margin: 0 auto;
-  height: 600px;
+  height: 140px;
   width: 100%;
   background-color: #181823;
   float: left;
+  padding-top: 280px;
+  padding-bottom: 280px;
 }
 
-#student {
-  width: 600px;
-  height: 130px;
+#studenttable {
   margin: 0 auto;
+  width: 600px;
+  height: 140px;
   top: 300px;}
 
 #polilogo {
