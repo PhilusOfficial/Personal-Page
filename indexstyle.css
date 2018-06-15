@@ -207,3 +207,79 @@ body {
   left: 10%;
   transform: translateY(-100%);
 }
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+#section4 {
+  clear: none;
+  display: block;
+  height: 140px;
+  width: 100%;
+  background-color: #252b33;
+  padding-top: 180px;
+  padding-bottom: 150px;
+  text-align: center;
+}
+
+#youtubelogo {
+  background-image: url("youtubelogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 140px;
+  width: 200px;
+  vertical-align: top;
+}
+
+#youtubetext {
+  display: inline-block;
+  height: 140px;
+  width: 400px;
+}
+
+#youtubetext p {
+  position: relative;
+  text-align: left;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-100%);
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+#section5 {
+  clear: none;
+  display: block;
+  height: 140px;
+  width: 100%;
+  background-color: #181823;
+  padding-top: 180px;
+  padding-bottom: 150px;
+  text-align: center;
+}
+
+#cameralogo {
+  background-image: url("cameralogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 140px;
+  width: 200px;
+  vertical-align: top;
+}
+
+#cameratext {
+  display: inline-block;
+  height: 140px;
+  width: 400px;
+}
+
+#cameratext p {
+  position: relative;
+  text-align: left;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-100%);
+}
