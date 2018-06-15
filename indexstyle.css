@@ -60,7 +60,7 @@ body {
 
 .subtitle {
   font-weight: 700;
-  font-size: 35px;
+  font-size: 40px;
   color: white;
   text-align: center;
 }
@@ -73,18 +73,18 @@ body {
 
 /*-----------------------------------------------------------------------------------------------------*/
 
-#section1 {
+#section0 {
   clear: none;
   display: block;
-  height: 140px;
+  height: 50px;
   width: 100%;
-  background-color: #2f363f;
-  padding-top: 160px;
-  padding-bottom: 250px;
+  background-color: #252b33;
+  padding-top: 100px;
+  padding-bottom: 100px;
   text-align: center;
 }
 
-#polititle {
+#title2 {
   display: block;
   height: 100px;
   width: 600px;
@@ -92,6 +92,19 @@ body {
   text-align: center;
   transform: translateX(-50%);
   position: relative;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+#section1 {
+  clear: none;
+  display: block;
+  height: 140px;
+  width: 100%;
+  background-color: #181823;
+  padding-top: 180px;
+  padding-bottom: 150px;
+  text-align: center;
 }
 
 #polilogo {
@@ -126,20 +139,10 @@ body {
   display: block;
   height: 140px;
   width: 100%;
-  background-color: #181823;
-  padding-top: 160px;
-  padding-bottom: 250px;
+  background-color: #252b33;
+  padding-top: 180px;
+  padding-bottom: 150px;
   text-align: center;
-}
-
-#mkwiititle {
-  display: block;
-  height: 100px;
-  width: 600px;
-  left: 50%;
-  text-align: center;
-  transform: translateX(-50%);
-  position: relative;
 }
 
 #mkwiilogo {
@@ -160,6 +163,44 @@ body {
 }
 
 #mkwiitext p {
+  position: relative;
+  text-align: left;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-100%);
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+#section3 {
+  clear: none;
+  display: block;
+  height: 140px;
+  width: 100%;
+  background-color: #181823;
+  padding-top: 180px;
+  padding-bottom: 150px;
+  text-align: center;
+}
+
+#magiclogo {
+  background-image: url("magiclogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 140px;
+  width: 200px;
+  vertical-align: top;
+}
+
+#magictext {
+  display: inline-block;
+  height: 140px;
+  width: 400px;
+}
+
+#magictext p {
   position: relative;
   text-align: left;
   top: 50%;
