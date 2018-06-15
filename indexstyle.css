@@ -55,7 +55,6 @@ body {
 
 #hi {font-weight: 300; font-size: 35px;}
 #myname {font-weight: 700; font-size: 40px;}
-#websurfer {font-weight: 300; font-size: 20px;}
 
 /*-----------------------------------------------------------------------------------------------------*/
 
@@ -72,15 +71,16 @@ body {
   color: white;
 }
 
+/*-----------------------------------------------------------------------------------------------------*/
+
 #section1 {
   clear: none;
   display: block;
-  margin: 0 auto;
   height: 140px;
   width: 100%;
-  background-color: #181823;
-  padding-top: 200px;
-  padding-bottom: 280px;
+  background-color: #2f363f;
+  padding-top: 160px;
+  padding-bottom: 250px;
   text-align: center;
 }
 
@@ -112,6 +112,54 @@ body {
 }
 
 #politext p {
+  position: relative;
+  text-align: left;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-100%);
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+#section2 {
+  clear: none;
+  display: block;
+  height: 140px;
+  width: 100%;
+  background-color: #181823;
+  padding-top: 160px;
+  padding-bottom: 250px;
+  text-align: center;
+}
+
+#mkwiititle {
+  display: block;
+  height: 100px;
+  width: 600px;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+  position: relative;
+}
+
+#mkwiilogo {
+  background-image: url("mkwiilogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 140px;
+  width: 200px;
+  vertical-align: top;
+}
+
+#mkwiitext {
+  display: inline-block;
+  height: 140px;
+  width: 400px;
+}
+
+#mkwiitext p {
   position: relative;
   text-align: left;
   top: 50%;
