@@ -78,7 +78,7 @@ body {
   display: block;
   height: 140px;
   width: 100%;
-  background-color: #181823;
+  background-color: #252b33;
   padding-top: 120px;
   padding-bottom: 120px;
   text-align: center;
@@ -116,7 +116,7 @@ body {
   display: block;
   height: 140px;
   width: 100%;
-  background-color: #252b33;
+  background-color: #181823;
   padding-top: 120px;
   padding-bottom: 120px;
   text-align: center;
@@ -154,14 +154,14 @@ body {
   display: block;
   height: 140px;
   width: 100%;
-  background-color: #181823;
+  background-color: #252b33;
   padding-top: 120px;
   padding-bottom: 120px;
   text-align: center;
 }
 
-#magiclogo {
-  background-image: url("magiclogo.png");
+#cameralogo {
+  background-image: url("cameralogo.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -171,13 +171,13 @@ body {
   vertical-align: top;
 }
 
-#magictext {
+#cameratext {
   display: inline-block;
   height: 140px;
   width: 400px;
 }
 
-#magictext p {
+#cameratext p {
   position: relative;
   text-align: left;
   top: 50%;
@@ -192,7 +192,7 @@ body {
   display: block;
   height: 140px;
   width: 100%;
-  background-color: #252b33;
+  background-color: #181823;
   padding-top: 120px;
   padding-bottom: 120px;
   text-align: center;
@@ -230,14 +230,14 @@ body {
   display: block;
   height: 140px;
   width: 100%;
-  background-color: #181823;
+  background-color: #252b33;
   padding-top: 120px;
   padding-bottom: 120px;
   text-align: center;
 }
 
-#cameralogo {
-  background-image: url("cameralogo.png");
+#magiclogo {
+  background-image: url("magiclogo.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -247,16 +247,66 @@ body {
   vertical-align: top;
 }
 
-#cameratext {
+#magictext {
   display: inline-block;
   height: 140px;
   width: 400px;
 }
 
-#cameratext p {
+#magictext p {
   position: relative;
   text-align: left;
   top: 50%;
   left: 10%;
   transform: translateY(-100%);
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+#foot {
+  clear: none;
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  padding-top: 80px;
+  padding-bottom: 150px;
+  text-align: center;
+}
+
+#facebooklink {
+  background-image: url("facebooklogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+#instagramlink {
+  background-image: url("instagramlogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 50px;
+  width: 50px;
+}
+
+#youtubelink {
+  background-image: url("youtubelogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 50px;
+  width: 50px;
 }
