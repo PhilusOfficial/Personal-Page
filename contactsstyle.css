@@ -1,0 +1,200 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #181823;}
+
+  p {max-height: 999999px;}
+
+.text {
+  font-weight: 300;
+  font-size: 20px;
+  max-height: 999999px;
+  color: white;
+  text-align: center;
+}
+
+
+.text a {color: orange; text-decoration: none;}
+.text a:hover{opacity: 0.7;}
+
+.section {
+  clear: none;
+  display: block;
+  height: 100px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.logo {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: top;
+}
+
+.section p {
+    position: relative;
+    text-align: left;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-200%);
+}
+
+.logotext {
+  display: inline-block;
+  height: 100px;
+  width: 450px;
+}
+
+  /*-----------------------------------------------------------------------------------------------------*/
+
+  .dropdown-content {display: none; position: absolute;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown-content a {text-align: left;}
+
+  #navcontainer {
+    background-image: url("contacts.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 580px;
+    width: 100%;
+    display: block;
+    margin: 0;
+    box-shadow: 0px 0px 51px 32px rgba(0,0,0,0.7);
+
+  }
+
+  #navbar {
+      list-style-type: none;
+      position: absolute;
+      padding: 0;
+      margin: 0;
+      top: 30px;
+      right: 5%;
+  }
+
+  li {
+      float: right;
+  }
+
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 16px 17px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 16px;
+  }
+
+  li a:hover {background: rgba(150, 150, 150, 0.35); border-radius: 2px;transition: 0.2s;}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+#pagetitle {
+  position: absolute;
+  text-align: center;
+  top: 250px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+#section1 {
+  display:block;
+  clear:none;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 35px;
+  font-size: 20px;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+#facebooklogo {
+  background-image: url("facebooklogo.png");}
+
+#facebooklogo:hover {opacity: 0.75;}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+#instagramlogo {background-image: url("instagramlogo.png");}
+
+#instagramlogo:hover {opacity: 0.75;}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+
+#maillogo {background-image: url("maillogo.png");}
+
+#maillogo:hover {opacity: 0.75;}
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+#foot {
+  clear: none;
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  padding-top: 80px;
+  padding-bottom: 150px;
+  text-align: center;
+  box-shadow: 0px 200px 0px 0px rgba(0,0,0,1);
+}
+
+#facebooklink {
+  background-image: url("facebooklogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+#facebooklink:hover {opacity: 0.7}
+
+#instagramlink {
+  background-image: url("instagramlogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 50px;
+  width: 50px;
+}
+
+#instagramlink:hover {opacity: 0.7}
+
+#youtubelink {
+  background-image: url("youtubelogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 50px;
+  width: 50px;
+}
+
+#youtubelink:hover {opacity: 0.7}

@@ -4,7 +4,13 @@ body {
   margin: 0;
   padding: 0;}
 
+  p {max-height: 999999px;}
+
   /*-----------------------------------------------------------------------------------------------------*/
+
+  .dropdown-content {display: none; position: absolute;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown-content a {text-align: left;}
 
   #navcontainer {
     background-image: url("homepage.jpg");
@@ -39,11 +45,11 @@ body {
       font-size: 16px;
   }
 
-  li a:hover {background: rgba(200, 0, 0, 0.5); border-radius: 2px;transition: 0.2s;}
+  li a:hover {background: rgba(150, 150, 150, 0.35); border-radius: 2px;transition: 0.2s;}
 
 /*-----------------------------------------------------------------------------------------------------*/
 
-#title {
+#pagetitle {
   position: absolute;
   text-align: center;
   top: 400px;
@@ -78,7 +84,9 @@ body {
   display: block;
   height: 140px;
   width: 100%;
-  background-color: #252b33;
+  background-image: url("bovisa.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 120px;
   padding-bottom: 120px;
   text-align: center;
@@ -94,6 +102,8 @@ body {
   width: 140px;
   vertical-align: top;
 }
+
+#polilogo:hover {opacity: 0.75;}
 
 #politext {
   display: inline-block;
@@ -116,7 +126,9 @@ body {
   display: block;
   height: 140px;
   width: 100%;
-  background-color: #181823;
+  background-image: url("mkwii.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 120px;
   padding-bottom: 120px;
   text-align: center;
@@ -132,6 +144,8 @@ body {
   width: 140px;
   vertical-align: top;
 }
+
+#mkwiilogo:hover {opacity: 0.75;}
 
 #mkwiitext {
   display: inline-block;
@@ -154,7 +168,9 @@ body {
   display: block;
   height: 140px;
   width: 100%;
-  background-color: #252b33;
+  background-image: url("photo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 120px;
   padding-bottom: 120px;
   text-align: center;
@@ -170,6 +186,8 @@ body {
   width: 140px;
   vertical-align: top;
 }
+
+#cameralogo:hover {opacity: 0.75;}
 
 #cameratext {
   display: inline-block;
@@ -192,7 +210,9 @@ body {
   display: block;
   height: 140px;
   width: 100%;
-  background-color: #181823;
+  background-image: url("youtube.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 120px;
   padding-bottom: 120px;
   text-align: center;
@@ -208,6 +228,8 @@ body {
   width: 140px;
   vertical-align: top;
 }
+
+#youtubelogo:hover {opacity: 0.75;}
 
 #youtubetext {
   display: inline-block;
@@ -230,7 +252,9 @@ body {
   display: block;
   height: 140px;
   width: 100%;
-  background-color: #252b33;
+  background-image: url("magic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 120px;
   padding-bottom: 120px;
   text-align: center;
@@ -246,6 +270,8 @@ body {
   width: 140px;
   vertical-align: top;
 }
+
+#magiclogo:hover {opacity: 0.75;}
 
 #magictext {
   display: inline-block;
@@ -287,6 +313,8 @@ body {
   vertical-align: top;
 }
 
+#facebooklink:hover {opacity: 0.7}
+
 #instagramlink {
   background-image: url("instagramlogo.png");
   background-size: contain;
@@ -299,6 +327,8 @@ body {
   width: 50px;
 }
 
+#instagramlink:hover {opacity: 0.7}
+
 #youtubelink {
   background-image: url("youtubelogo.png");
   background-size: contain;
@@ -310,3 +340,5 @@ body {
   height: 50px;
   width: 50px;
 }
+
+#youtubelink:hover {opacity: 0.7}
