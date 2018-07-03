@@ -20,6 +20,28 @@ body {
 .text a {color: orange; text-decoration: none;}
 .text a:hover{opacity: 0.7;}
 
+#itaflag {
+  height: 30px;
+  width: 50px; position:
+  absolute;
+  top: 20px;
+  left: 20px;
+  background-image: url("itaflag.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#engflag {
+  height: 30px;
+  width: 50px; position:
+  absolute;
+  top: 20px;
+  left: 90px;
+  background-image: url("engflag.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
   /*-----------------------------------------------------------------------------------------------------*/
 
   .dropdown-content {display: none; position: absolute;}

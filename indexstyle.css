@@ -6,6 +6,28 @@ body {
 
   p {max-height: 999999px;}
 
+  #itaflag {
+    height: 30px;
+    width: 50px; position:
+    absolute;
+    top: 20px;
+    left: 20px;
+    background-image: url("itaflag.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #engflag {
+    height: 30px;
+    width: 50px; position:
+    absolute;
+    top: 20px;
+    left: 90px;
+    background-image: url("engflag.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
   /*-----------------------------------------------------------------------------------------------------*/
 
   .dropdown-content {display: none; position: absolute;}
@@ -52,11 +74,24 @@ body {
 #pagetitle {
   position: absolute;
   text-align: center;
-  top: 400px;
+  top: 380px;
   left: 50%;
   transform: translate(-50%,-50%);
   color: white;
   line-height: 50px;
+}
+
+#arrow {
+  position: absolute;
+  text-align: center;
+  font-weight: 500;
+  font-size: 60px;
+  left: 50%;
+  top: 600px;
+  transform: translate(-50%,-50%) rotate(270deg);
+  transform-origin: center;
+  color:white;
+  cursor: pointer;
 }
 
 #hi {font-weight: 300; font-size: 35px;}
@@ -116,7 +151,7 @@ body {
   text-align: left;
   top: 50%;
   left: 10%;
-  transform: translateY(-100%);
+  transform: translateY(-90%);
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
@@ -158,7 +193,7 @@ body {
   text-align: left;
   top: 50%;
   left: 10%;
-  transform: translateY(-100%);
+  transform: translateY(-85%);
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
@@ -200,7 +235,7 @@ body {
   text-align: left;
   top: 50%;
   left: 10%;
-  transform: translateY(-100%);
+  transform: translateY(-80%);
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
@@ -242,7 +277,7 @@ body {
   text-align: left;
   top: 50%;
   left: 10%;
-  transform: translateY(-100%);
+  transform: translateY(-90%);
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
@@ -284,7 +319,7 @@ body {
   text-align: left;
   top: 50%;
   left: 10%;
-  transform: translateY(-100%);
+  transform: translateY(-80%);
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
