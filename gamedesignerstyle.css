@@ -24,8 +24,8 @@ p {max-height: 999999px;}
   height: 30px;
   width: 30px; position:
   absolute;
-  top: 20px;
-  left: 20px;
+  top: 35px;
+  left: 35px;
   background-image: url("itaflag.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -38,8 +38,8 @@ p {max-height: 999999px;}
   height: 30px;
   width: 30px; position:
   absolute;
-  top: 20px;
-  left: 70px;
+  top: 35px;
+  left: 85px;
   background-image: url("engflag.png");
   background-size: cover;
   background-repeat: no-repeat;
