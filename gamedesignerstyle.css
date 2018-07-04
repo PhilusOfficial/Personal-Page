@@ -22,24 +22,30 @@ p {max-height: 999999px;}
 
 #itaflag {
   height: 30px;
-  width: 50px; position:
+  width: 30px; position:
   absolute;
   top: 20px;
   left: 20px;
   background-image: url("itaflag.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid white;
+  border-radius:999px;
 }
 
 #engflag {
   height: 30px;
-  width: 50px; position:
+  width: 30px; position:
   absolute;
   top: 20px;
-  left: 90px;
+  left: 70px;
   background-image: url("engflag.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid white;
+  border-radius:999px;
 }
 
   /*-----------------------------------------------------------------------------------------------------*/
