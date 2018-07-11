@@ -9,11 +9,11 @@ body {
   .flag:hover {opacity: 0.7}
 
   #itaflag {
-    height: 30px;
-    width: 30px; position:
-    absolute;
-    top: 35px;
-    left: 35px;
+    height: 2.2vw;
+    width: 2.2vw;
+    position: absolute;
+    top: 2.3vw;
+    left: 2.3vw;
     background-image: url("itaflag.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,11 +23,11 @@ body {
   }
 
   #engflag {
-    height: 30px;
-    width: 30px; position:
-    absolute;
-    top: 35px;
-    left: 85px;
+    height: 2.2vw;
+    width: 2.2vw;
+    position: absolute;
+    top: 2.3vw;
+    left: 6vw;
     background-image: url("engflag.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -79,7 +79,7 @@ body {
     background-position: center;
     background-size: 106%;
     background-repeat: no-repeat;
-    height: 800px;
+    height: 50vw;
     width: 100%;
     display: block;
     margin: 0;
@@ -90,7 +90,7 @@ body {
       position: absolute;
       padding: 0;
       margin: 0;
-      top: 30px;
+      top: 1.8vw;
       right: 5%;
   }
 
@@ -115,10 +115,10 @@ body {
 #pagetitle {
   position: absolute;
   text-align: center;
-  top: 380px;
+  top: 26vw;
   left: 50%;
   color: white;
-  line-height: 50px;
+  line-height: 3.3vw;
 }
 
 #arrow {
@@ -127,7 +127,7 @@ body {
   font-weight: 500;
   font-size: 5vw;
   left: 50%;
-  top: 600px;
+  top: 40vw;
   transform-origin: center;
   color:white;
   cursor: pointer;
