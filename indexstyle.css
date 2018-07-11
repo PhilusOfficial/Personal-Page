@@ -9,8 +9,8 @@ body {
   .flag:hover {opacity: 0.7}
 
   #itaflag {
-    height: 2.2vw;
-    width: 2.2vw;
+    height: 2.1vw;
+    width: 2.1vw;
     position: absolute;
     top: 2.3vw;
     left: 2.3vw;
@@ -23,8 +23,8 @@ body {
   }
 
   #engflag {
-    height: 2.2vw;
-    width: 2.2vw;
+    height: 2.1vw;
+    width: 2.1vw;
     position: absolute;
     top: 2.3vw;
     left: 6vw;
@@ -102,10 +102,10 @@ body {
       display: block;
       color: white;
       text-align: center;
-      padding: 16px 17px;
+      padding: 1vw 1vw;
       text-decoration: none;
       font-weight: 700;
-      font-size: 16px;
+      font-size: 1.1vw;
   }
 
   li a:hover {background: rgba(150, 150, 150, 0.35); border-radius: 2px;transition: 0.2s;}
@@ -115,7 +115,7 @@ body {
 #pagetitle {
   position: absolute;
   text-align: center;
-  top: 26vw;
+  top: 25vw;
   left: 50%;
   color: white;
   line-height: 3.3vw;
@@ -152,16 +152,9 @@ body {
 
 /*-----------------------------------------------------------------------------------------------------*/
 
-.subtitle {
-  font-weight: 700;
-  font-size: 40px;
-  color: white;
-  text-align: center;
-}
-
 .subtext {
   font-weight: 300;
-  font-size: 20px;
+  font-size: 1.35vw;
   color: white;
 }
 
@@ -170,11 +163,11 @@ body {
 #section1 {
   clear: none;
   display: block;
-  height: 140px;
+  height: 9vw;
   width: 100%;
   background-image: url("bovisa.jpg");
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 8vw;
+  padding-bottom: 8vw;
   text-align: center;
 }
 
@@ -184,15 +177,15 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  height: 140px;
-  width: 140px;
+  height: 9vw;
+  width: 9vw;
   vertical-align: top;
 }
 
 #politext {
   display: inline-block;
-  height: 140px;
-  width: 400px;
+  height: 9vw;
+  width: 31vw;
 }
 
 #politext p {
@@ -208,11 +201,11 @@ body {
 #section2 {
   clear: none;
   display: block;
-  height: 140px;
+  height: 9vw;
   width: 100%;
   background-image: url("mkwii.jpg");
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 8vw;
+  padding-bottom: 8vw;
   text-align: center;
 }
 
@@ -222,15 +215,15 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  height: 140px;
-  width: 140px;
+  height: 9vw;
+  width: 9vw;
   vertical-align: top;
 }
 
 #mkwiitext {
   display: inline-block;
-  height: 140px;
-  width: 400px;
+  height: 9vw;
+  width: 31vw;
 }
 
 #mkwiitext p {
@@ -246,11 +239,11 @@ body {
 #section3 {
   clear: none;
   display: block;
-  height: 140px;
+  height: 9vw;
   width: 100%;
   background-image: url("photo.jpg");
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 8vw;
+  padding-bottom: 8vw;
   text-align: center;
 }
 
@@ -260,15 +253,15 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  height: 140px;
-  width: 140px;
+  height: 9vw;
+  width: 9vw;
   vertical-align: top;
 }
 
 #cameratext {
   display: inline-block;
-  height: 140px;
-  width: 400px;
+  height: 9vw;
+  width: 31vw;
 }
 
 #cameratext p {
@@ -284,11 +277,11 @@ body {
 #section4 {
   clear: none;
   display: block;
-  height: 140px;
+  height: 9vw;
   width: 100%;
   background-image: url("youtube.jpg");
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 8vw;
+  padding-bottom: 8vw;
   text-align: center;
 }
 
@@ -298,15 +291,15 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  height: 140px;
-  width: 140px;
+  height: 9vw;
+  width: 9vw;
   vertical-align: top;
 }
 
 #youtubetext {
   display: inline-block;
-  height: 140px;
-  width: 400px;
+  height: 9vw;
+  width: 31vw;
 }
 
 #youtubetext p {
@@ -322,11 +315,11 @@ body {
 #section5 {
   clear: none;
   display: block;
-  height: 140px;
+  height: 9vw;
   width: 100%;
   background-image: url("magic.jpg");
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 8vw;
+  padding-bottom: 8vw;
   text-align: center;
 }
 
@@ -336,15 +329,15 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  height: 140px;
-  width: 140px;
+  height: 9vw;
+  width: 9vw;
   vertical-align: top;
 }
 
 #magictext {
   display: inline-block;
-  height: 140px;
-  width: 400px;
+  height: 9vw;
+  width: 31vw;
 }
 
 #magictext p {
