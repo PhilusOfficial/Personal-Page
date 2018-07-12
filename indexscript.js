@@ -14,8 +14,22 @@ function goback() {
   $(this).removeClass("backgroundanimation");
 }
 
+function animatearrow() {
+  $("#arrow").removeClass("arrowscalingback")
+  $("#arrow").removeClass("arrowanimation")
+  $("#arrow").addClass("arrowscaling")
+}
+
+function stoparrow() {
+  $("#arrow").removeClass("arrowscaling")
+  $("#arrow").addClass("arrowscalingback")
+}
+
 $(".preanimation").mouseover(zoom);
 $(".preanimation").mouseleave(goback);
+
+$("#arrow").mouseover(animatearrow);
+$("#arrow").mouseleave(stoparrow);
 
 /*----------------------------------------------------------------------*/
 
