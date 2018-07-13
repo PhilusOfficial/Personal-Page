@@ -17,11 +17,16 @@ function hide() {
   $("#dropdownblock").addClass("nodisplay")
 }
 
+function removeanimation() {
+  $(".flag").removeClass("detailanimation")
+}
+
 $('#myskills').on('click', function(e) {
     e.stopPropagation();
 });
 
 $("#myskills").click(hover);
+$(".flag").hover(removeanimation);
 $(document).click(hide);
 
 $("#arrow").click(function() {

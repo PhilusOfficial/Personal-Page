@@ -1,0 +1,47 @@
+<div id="c1" class="curtain"></div>
+<div id="c2" class="curtain"></div>
+<div id="c3" class="curtain"></div>
+<div id="c4" class="curtain"></div>
+<div id="c5" class="curtain"></div>
+<div id="c6" class="curtain"></div>
+<div id="c7" class="curtain"></div>
+<div id="c8" class="curtain"></div>
+<div id="c9" class="curtain"></div>
+<div id="c10" class="curtain"></div>
+<div id="c11" class="curtain"></div>
+<div id="c12" class="curtain"></div>
+<div id="c13" class="curtain"></div>
+<div id="c14" class="curtain"></div>
+<div id="c15" class="curtain"></div>
+<div id="c16" class="curtain"></div>
+<div id="c17" class="curtain"></div>
+<div id="c18" class="curtain"></div>
+<div id="c19" class="curtain"></div>
+<div id="c20" class="curtain"></div>
+
+.curtain {
+  height: 3.75vw;
+  width: 100vw;
+  background-color: #181823;
+  position: fixed;
+  left: 0;
+  animation: rotatecurtain 0.5s forwards;
+  z-index: 0;
+}
+
+#c1 {top:0; animation-delay: 0.5s;}
+#c2 {top:3.75vw; animation-delay: 0.55s;}
+#c3 {top:7.5vw; animation-delay: 0.6s;}
+#c4 {top:11.25vw; animation-delay: 0.65s;}
+#c5 {top:15vw; animation-delay: 0.7s;}
+#c6 {top:18.75vw; animation-delay: 0.75s;}
+#c7 {top:22.5vw; animation-delay: 0.8s;}
+#c8 {top:26.25vw; animation-delay: 0.85s;}
+#c9 {top:30vw; animation-delay: 0.9s;}
+#c10 {top:33.75vw; animation-delay: 0.95s;}
+
+@keyframes rotatecurtain {
+  from{transform: rotateX(0deg)}
+  99%{transform-style: preserve-3d; transform: rotateX(90deg); opacity: 1; -webkit-perspective: 100px; perspective: 100px;}
+  to{transform-style: preserve-3d; transform: rotateX(90deg); opacity: 0;}
+}

@@ -18,12 +18,15 @@ body {
 .text a {color: orange; text-decoration: none;}
 .text a:hover{opacity: 0.7;}
 
+.flag:hover {opacity: 0.7}
+.flag {z-index: 1}
+
 #itaflag {
-  height: 30px;
-  width: 30px; position:
-  absolute;
-  top: 35px;
-  left: 35px;
+  height: 2.1vw;
+  width: 2.1vw;
+  position: absolute;
+  top: 2.3vw;
+  left: 2.3vw;
   background-image: url("itaflag.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -33,17 +36,50 @@ body {
 }
 
 #engflag {
-  height: 30px;
-  width: 30px; position:
-  absolute;
-  top: 35px;
-  left: 85px;
+  height: 2.1vw;
+  width: 2.1vw;
+  position: absolute;
+  top: 2.3vw;
+  left: 6vw;
   background-image: url("engflag.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   border: 2px solid white;
   border-radius:999px;
+}
+
+.titleanimation {animation: animatetitle 1.5s forwards; transform: translate(-50%,-50%); opacity: 0; animation-delay: 0.2s;}
+
+@keyframes animatetitle {
+  from{transform: translate(-50%,-50%) scale(1.2,1.2); opacity: 0;}
+  to{transform: translate(-50%,-50%) scale(1,1); opacity: 1;}
+}
+
+.propicanimation {animation: animatepropic 1s forwards; transform: translate(-50%,-50%); opacity: 0; animation-delay: 0.4s;}
+
+@keyframes animatepropic {
+  from{transform: translate(-50%,-50%) scale(1.2,1.2); opacity: 0;}
+  50%{opacity: 1;}
+  to{transform: translate(-50%,-50%) scale(1,1); opacity: 1;}
+}
+
+.detailanimation {animation: animatedetail 0.5s forwards; opacity: 0;}
+
+@keyframes animatedetail {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+.navanimation {
+  animation: animatenav 1s forwards;
+  background-size: 120%; background-position: center; background-repeat: no-repeat;
+}
+
+@keyframes animatenav {
+  from{background-size: 120%; background-position: center; background-repeat: no-repeat;}
+  80%{box-shadow: 0px 0px 3.8vw 2.2vw rgba(0,0,0,0.7);}
+  to{background-size: 100%; background-position: center; background-repeat: no-repeat; box-shadow: 0px 0px 3.8vw 2.2vw rgba(0,0,0,0.7);}
 }
 
   /*-----------------------------------------------------------------------------------------------------*/
@@ -63,14 +99,10 @@ body {
 
   #navcontainer {
     background-image: url("bovisa.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 580px;
+    height: 37.5vw;
     width: 100%;
     display: block;
     margin: 0;
-    box-shadow: 0px 0px 51px 32px rgba(0,0,0,0.7);
-
   }
 
   #navbar {
@@ -78,8 +110,9 @@ body {
       position: absolute;
       padding: 0;
       margin: 0;
-      top: 30px;
+      top: 1.8vw;
       right: 5%;
+      z-index: 1;
   }
 
   li {
@@ -90,25 +123,27 @@ body {
       display: block;
       color: white;
       text-align: center;
-      padding: 16px 17px;
+      padding: 1vw 1vw;
       text-decoration: none;
       font-weight: 700;
-      font-size: 16px;
+      font-size: 1.1vw;
   }
 
   li a:hover {background: rgba(150, 150, 150, 0.35); border-radius: 2px;transition: 0.2s;}
 
 /*-----------------------------------------------------------------------------------------------------*/
 
+
 #pagetitle {
   position: absolute;
   text-align: center;
-  top: 240px;
+  top: 16vw;
   left: 50%;
   transform: translate(-50%,-50%);
   color: white;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 2.8vw;
+  z-index: 1;
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
@@ -117,14 +152,15 @@ body {
   background-image: url("propic.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 280px;
-  width: 280px;
-  top: 580px;
+  height: 19vw;
+  width: 19vw;
+  top: 37.5vw;
   left: 50%;
   position: absolute;
   transform: translate(-50%,-50%);
-  border: solid 10px white;
+  border: solid 0.7vw white;
   border-radius: 999px;
+  z-index: 1;
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
@@ -132,12 +168,12 @@ body {
 #section1 {
   display:block;
   clear:none;
-  padding-top:200px;
-  padding-bottom: 50px;
-  margin-left: 20%;
-  margin-right: 20%;
-  line-height: 35px;
-  font-size: 20px;
+  padding-top:14vw;
+  padding-bottom: 4vw;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  line-height: 2.4vw;
+  font-size: 1.3vw;
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
@@ -145,11 +181,11 @@ body {
 #foot {
   clear: none;
   display: block;
-  height: 50px;
+  height: 9vw;
   width: 100%;
   background-color: black;
-  padding-top: 80px;
-  padding-bottom: 150px;
+  padding-top: 4vw;
+  padding-bottom: 6vw;
   text-align: center;
 }
 
@@ -159,10 +195,10 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  height: 50px;
-  width: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
+  height: 3.5vw;
+  width: 3.5vw;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
   vertical-align: top;
 }
 
@@ -174,10 +210,10 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  margin-left: 20px;
-  margin-right: 20px;
-  height: 50px;
-  width: 50px;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+  height: 3.5vw;
+  width: 3.5vw;
 }
 
 #instagramlink:hover {opacity: 0.7}
@@ -188,10 +224,10 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  margin-left: 20px;
-  margin-right: 20px;
-  height: 50px;
-  width: 50px;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+  height: 3.5vw;
+  width: 3.5vw;
 }
 
 #youtubelink:hover {opacity: 0.7}
