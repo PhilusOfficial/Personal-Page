@@ -10,7 +10,8 @@ p {max-height: 999999px;}
 
 .text {
   font-weight: 300;
-  font-size: 20px;
+  line-height: 2.4vw;
+  font-size: 1.3vw;
   max-height: 999999px;
   color: white;
   text-align: center;
@@ -20,12 +21,15 @@ p {max-height: 999999px;}
 .text a, .captext a {color: orange; text-decoration: none;}
 .text a:hover, .captext a:hover {opacity:0.7;}
 
+.flag:hover {opacity: 0.7}
+.flag {z-index: 1}
+
 #itaflag {
-  height: 30px;
-  width: 30px; position:
-  absolute;
-  top: 35px;
-  left: 35px;
+  height: 2.1vw;
+  width: 2.1vw;
+  position: absolute;
+  top: 2.3vw;
+  left: 2.3vw;
   background-image: url("itaflag.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -35,17 +39,37 @@ p {max-height: 999999px;}
 }
 
 #engflag {
-  height: 30px;
-  width: 30px; position:
-  absolute;
-  top: 35px;
-  left: 85px;
+  height: 2.1vw;
+  width: 2.1vw;
+  position: absolute;
+  top: 2.3vw;
+  left: 6vw;
   background-image: url("engflag.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   border: 2px solid white;
   border-radius:999px;
+}
+
+.titleanimation {animation: animatetitle 1.5s forwards; transform: translate(-50%,-50%); opacity: 0; animation-delay: 0.2s;}
+
+@keyframes animatetitle {
+  from{transform: translate(-50%,-50%) scale(1.2,1.2); opacity: 0;}
+  to{transform: translate(-50%,-50%) scale(1,1); opacity: 1;}
+}
+
+.navanimation {
+  animation: animatenav 1.2s forwards;
+  background-size: 120%; background-position: center; background-repeat: no-repeat;
+  height: 50vw;
+  animation-delay: 0.07s;
+}
+
+@keyframes animatenav {
+  from{height: 50vw; background-size: 120%; background-position: center; background-repeat: no-repeat;}
+  80%{box-shadow: 0px 0px 3.8vw 2.2vw rgba(0,0,0,0.7);}
+  to{height: 37.5vw; background-size: 100%; background-position: center; background-repeat: no-repeat; box-shadow: 0px 0px 3.8vw 2.2vw rgba(0,0,0,0.7);}
 }
 
   /*-----------------------------------------------------------------------------------------------------*/
@@ -56,14 +80,9 @@ p {max-height: 999999px;}
 
   #navcontainer {
     background-image: url("mkwii.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 580px;
     width: 100%;
     display: block;
     margin: 0;
-    box-shadow: 0px 0px 51px 32px rgba(0,0,0,0.7);
-
   }
 
   #navbar {
@@ -71,8 +90,9 @@ p {max-height: 999999px;}
       position: absolute;
       padding: 0;
       margin: 0;
-      top: 30px;
+      top: 1.8vw;
       right: 5%;
+      z-index: 1;
   }
 
   li {
@@ -83,10 +103,10 @@ p {max-height: 999999px;}
       display: block;
       color: white;
       text-align: center;
-      padding: 16px 17px;
+      padding: 1vw 1vw;
       text-decoration: none;
       font-weight: 700;
-      font-size: 16px;
+      font-size: 1.1vw;
   }
 
   li a:hover {background: rgba(150, 150, 150, 0.35); border-radius: 2px;transition: 0.2s;}
@@ -96,12 +116,13 @@ p {max-height: 999999px;}
 #pagetitle {
   position: absolute;
   text-align: center;
-  top: 250px;
+  top: 16vw;
   left: 50%;
   transform: translate(-50%,-50%);
   color: white;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 2.8vw;
+  z-index: 1;
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
@@ -109,12 +130,10 @@ p {max-height: 999999px;}
 #section1 {
   display:block;
   clear:none;
-  padding-top:70px;
-  padding-bottom: 30px;
-  margin-left: 20%;
-  margin-right: 20%;
-  line-height: 35px;
-  font-size: 20px;
+  padding-top: 4vw;
+  padding-bottom: 2vw;
+  margin-left: 20vw;
+  margin-right: 20vw;
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
@@ -124,20 +143,20 @@ p {max-height: 999999px;}
 
 iframe {
   vertical-align: middle;
-  height: 450px;
-  width: 800px;
+  height: 33.75vw;
+  width: 60vw;
   border: 0;
   margin: 0;
   padding: 0;
 }
 
 .slideshow-container {
-  width: 800px;
-  height: 450px;
+  width: 60vw;
+  height: 33.75vw;
   position: relative;
   margin: auto;
   background-color: black;
-  box-shadow: 0px 0px 51px 20px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 3.8vw 2.2vw rgba(0,0,0,0.75);
 }
 
 .prev, .next {
@@ -145,19 +164,19 @@ iframe {
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 16px;
-  transform: translate(0, -30px);
+  padding: 0.9vw;
+  transform: translate(0, -2.8vw);
   color: white;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 3vw;
   transition: 0.6s ease;
   border-radius: 2px;
 }
 
-.prev {left: -50px;}
+.prev {left: -4vw;}
 
 .next {
-  right: -50px;
+  right: -4vw;
 }
 
 .prev:hover, .next:hover {
@@ -168,9 +187,9 @@ iframe {
 .captext {
   color: white;
   font-weight: 300;
-  font-size: 20px;
-  transform: translate(0, 80px);
-  padding: 8px 12px;
+  font-size: 1.3vw;
+  transform: translate(0, 5vw);
+  padding: 0.6vw 09vw;
   display: block;
   width: 100%;
   text-align: center;
@@ -178,9 +197,9 @@ iframe {
 
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
+  height: 1.2vw;
+  width: 1.2vw;
+  margin: 0 0.1vw;
   background-color: #717171;
   border-radius: 50%;
   display: inline-block;
@@ -188,8 +207,7 @@ iframe {
 }
 
 #dotcontainer {
-  transform: translate(0, 0);
-  margin-top: 20px;
+  margin-top: 1.4vw;
 }
 
 .active, .dot:hover {
@@ -215,18 +233,22 @@ iframe {
 
 /*-----------------------------------------------------------------------------------------------------*/
 
-/*-----------------------------------------------------------------------------------------------------*/
-
+.subtext {
+  font-weight: 300;
+  font-size: 1.35vw;
+  color: white;
+}
 
 #foot {
   clear: none;
   display: block;
-  height: 50px;
+  height: 9vw;
   width: 100%;
   background-color: black;
-  padding-top: 70px;
-  padding-bottom: 190px;
+  padding-top: 4vw;
+  padding-bottom: 14vw;
   text-align: center;
+  margin-top: 10vw;
 }
 
 #facebooklink {
@@ -235,10 +257,10 @@ iframe {
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  height: 50px;
-  width: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
+  height: 3.5vw;
+  width: 3.5vw;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
   vertical-align: top;
 }
 
@@ -250,10 +272,10 @@ iframe {
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  margin-left: 20px;
-  margin-right: 20px;
-  height: 50px;
-  width: 50px;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+  height: 3.5vw;
+  width: 3.5vw;
 }
 
 #instagramlink:hover {opacity: 0.7}
@@ -264,10 +286,10 @@ iframe {
   background-repeat: no-repeat;
   background-position: center;
   display: inline-block;
-  margin-left: 20px;
-  margin-right: 20px;
-  height: 50px;
-  width: 50px;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+  height: 3.5vw;
+  width: 3.5vw;
 }
 
 #youtubelink:hover {opacity: 0.7}

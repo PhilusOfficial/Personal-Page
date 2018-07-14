@@ -8,7 +8,8 @@ body {
 
 .text {
   font-weight: 300;
-  font-size: 20px;
+  line-height: 2.4vw;
+  font-size: 1.3vw;
   max-height: 999999px;
   color: white;
   text-align: center;
@@ -64,22 +65,17 @@ body {
   to{transform: translate(-50%,-50%) scale(1,1); opacity: 1;}
 }
 
-.detailanimation {animation: animatedetail 0.5s forwards; opacity: 0;}
-
-@keyframes animatedetail {
-  from{opacity: 0;}
-  to{opacity: 1;}
-}
-
 .navanimation {
-  animation: animatenav 1s forwards;
+  animation: animatenav 1.2s forwards;
   background-size: 120%; background-position: center; background-repeat: no-repeat;
+  height: 50vw;
+  animation-delay: 0.07s;
 }
 
 @keyframes animatenav {
-  from{background-size: 120%; background-position: center; background-repeat: no-repeat;}
+  from{height: 50vw; background-size: 120%; background-position: center; background-repeat: no-repeat;}
   80%{box-shadow: 0px 0px 3.8vw 2.2vw rgba(0,0,0,0.7);}
-  to{background-size: 100%; background-position: center; background-repeat: no-repeat; box-shadow: 0px 0px 3.8vw 2.2vw rgba(0,0,0,0.7);}
+  to{height: 37.5vw; background-size: 100%; background-position: center; background-repeat: no-repeat; box-shadow: 0px 0px 3.8vw 2.2vw rgba(0,0,0,0.7);}
 }
 
   /*-----------------------------------------------------------------------------------------------------*/
@@ -99,7 +95,6 @@ body {
 
   #navcontainer {
     background-image: url("bovisa.jpg");
-    height: 37.5vw;
     width: 100%;
     display: block;
     margin: 0;
@@ -172,11 +167,15 @@ body {
   padding-bottom: 4vw;
   margin-left: 20vw;
   margin-right: 20vw;
-  line-height: 2.4vw;
-  font-size: 1.3vw;
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
+
+.subtext {
+  font-weight: 300;
+  font-size: 1.35vw;
+  color: white;
+}
 
 #foot {
   clear: none;
@@ -185,7 +184,7 @@ body {
   width: 100%;
   background-color: black;
   padding-top: 4vw;
-  padding-bottom: 6vw;
+  padding-bottom: 5vw;
   text-align: center;
 }
 
