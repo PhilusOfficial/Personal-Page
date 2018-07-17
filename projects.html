@@ -1,16 +1,25 @@
-<!DOCTYPE html>
+<!DOCTYPE
+html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>Federico Lucifora</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
-    <link rel="stylesheet" href="contactsstyle.css">
+    <link rel="stylesheet" href="projectsstyle.css">
+    <script src="jquery.min.js"></script>
 
   </head>
 
-	<body>
+	<body class="page">
 
-    <a href="contactsita.html" style="opacity:0.5"><div id="itaflag" class="flag"></div></a>
+    <div id="cover" class="nodisplay"></div>
+    <div class="pinkfloyd video big" ><video autoplay loop src="pinkfloyd.mp4"><video></div>
+    <div class="pandeldiavolo video big"><video autoplay loop muted src="pandeldiavolo.mp4"><video></div>
+    <div class="twosuns video small"><video autoplay loop src="twosuns.mp4"><video></div>
+    <div class="radiohead video small"><video autoplay loop src="radiohead.mp4"><video></div>
+    <div class="davidbowie video small"><video autoplay loop  src="davidbowie.mp4"><video></div>
+
+    <a href="contactsita.html"><div id="itaflag" class="flag thisflag flagopacity"></div></a>
     <a href="contacts.html"><div id="engflag" class="flag"></div></a>
 
     <div id="navcontainer" class="navanimation">
@@ -33,37 +42,11 @@
     </div>
 
     <div id="titlecontainer">
-      <p id="pagetitle" class="titleanimation">Contacts</p>
+      <p id="pagetitle" class="titleanimation">Projects</p>
       </div>
 
 
-      <p class="text" id="section1">
-        If you need anything or want to ask me something, <br>don't hesitate to contact me through one of these means:
-      </p>
 
-
-      <div class="section">
-
-          <a target="_blank" href="https://www.facebook.com/federico.lucifora.9"><div class="logo" id="facebooklogo"></div></a>
-          <div class="logotext"><p class="text">Send me a message on Facebook</p></div>
-
-      </div>
-
-      <div class="section">
-
-          <a target="_blank" href="https://www.instagram.com/federicolucifora98/"><div class="logo" id="instagramlogo"></div></a>
-          <div class="logotext"><p class="text">Send me a message on Instagram</p></div>
-
-      </div>
-
-      </div>
-
-      <div class="section">
-
-          <a href="mailto:federico.lucifora.business@gmail.com"><div class="logo" id="maillogo"></div></a>
-          <div class="logotext"><p class="text">Mail me at federico.lucifora.business@gmail.com</p></div>
-
-      </div>
       <div id="foot">
 
           <p class="subtext">federico.lucifora.business@gmail.com</p><br>
@@ -72,4 +55,8 @@
           <a target="_blank" href="https://www.youtube.com/channel/UCrttdIcsHk_HWZb_9sdSk-Q"><div id="youtubelink"></div></a>
 
       </div>
+
   </body>
+  <div id="loading"><div class="ellipsis"><div></div><div></div><div></div><div></div></div></div>
+
+  <script src="projectsscript.js"></script>
