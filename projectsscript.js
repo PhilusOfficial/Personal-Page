@@ -2,12 +2,14 @@ function scale() {
   $(this).addClass("center")
   $("#cover").addClass("depth")
   $("body").addClass("stopscroll")
+  $(".video").removeClass("use")
 }
 
 function goback() {
   $(".video").removeClass("center")
   $("#cover").removeClass("depth")
   $("body").removeClass("stopscroll")
+  $(".video").addClass("use")
 }
 
 $(".video").click(scale)
