@@ -196,11 +196,31 @@ body {
   transform: translate(-50%,-50%);
   color: white;
   font-weight: 700;
-  font-size: 2.8vw;
+  font-size: 2.9vw;
   z-index: 1;
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
+
+#text1 {
+  width: 19.5vw;
+  left: 3vw;
+  top: 4vw;
+  position: fixed;
+  font-weight: 300;
+  line-height: 2.4vw;
+  font-size: 1.3vw;
+  color: white;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
 
 #cover {
   background-color: #181823;
