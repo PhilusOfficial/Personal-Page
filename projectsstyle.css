@@ -6,7 +6,7 @@
   z-index: 100;
   width: 100vw;
   height: 100vh;
-  background-color: black;
+  background-color: #181823;
 }
 
 .ellipsis {
@@ -16,7 +16,6 @@
   position: fixed;
   width: 64px;
   height: 64px;
-  background-color: black;
 }
 .ellipsis div {
   position: absolute;
@@ -156,7 +155,7 @@ body {
     width: 100%;
     display: block;
     margin: 0;
-    margin-bottom: 56vw;
+    margin-bottom: 110vh;
     z-index: 1;
     position: relative;
   }

@@ -13,8 +13,6 @@ function goback() {
 $(".video").click(scale)
 $("#cover").click(goback)
 
-
-
 function onReady(callback) {
   var intervalId = window.setInterval(function() {
     if (document.getElementsByTagName('body')[0] !== undefined) {
