@@ -16,6 +16,26 @@ $(".video").click(scale)
 $("#cover").click(goback)
 
 
+function animatearrow() {
+  $("#arrow").removeClass("arrowscalingback")
+  $("#arrow").removeClass("arrowanimation")
+  $("#arrow").addClass("arrowscaling")
+}
+
+function stoparrow() {
+  $("#arrow").removeClass("arrowscaling")
+  $("#arrow").addClass("arrowscalingback")
+}
+$("#arrow").mouseover(animatearrow);
+$("#arrow").mouseleave(stoparrow);
+
+$("#arrow").click(function() {
+    $('html, body').animate({
+        scrollTop: $(document).height()
+    }, 1000);
+});
+
+
 function onReady(callback) {
   var intervalId = window.setInterval(function() {
     if (document.getElementsByTagName('body')[0] !== undefined) {

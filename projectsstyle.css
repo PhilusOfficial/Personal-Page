@@ -170,6 +170,40 @@ body {
       z-index: 1;
   }
 
+  #arrow {
+    position: absolute;
+    text-align: center;
+    font-weight: 500;
+    font-size: 5vw;
+    left: 49.8%;
+    top: 29vw;
+    transform-origin: center;
+    color: white;
+    cursor: pointer;
+    z-index: 1;
+    transform: translate(-50%,-50%) rotate(270deg) scale(1,1);
+  }
+
+  .arrowanimation {animation: animatearrow 1s forwards; animation-delay: 1.5s; opacity:0;}
+  .arrowscaling {animation: scalearrow 0.2s forwards;}
+  .arrowscalingback {animation: scalearrowback 0.2s forwards;}
+
+  @keyframes animatearrow{
+    from{transform: translate(-50%,-150%) rotate(270deg) scale(2,2); opacity: 0;}
+    to{transform: translate(-50%,-50%) rotate(270deg) scale(1,1); opacity: 1;}
+  }
+
+  @keyframes scalearrow{
+    from{transform: translate(-50%,-50%) rotate(270deg) scale(1,1);}
+    to{transform: translate(-50%,-50%) rotate(270deg) scale(1.25,1.25);}
+  }
+
+  @keyframes scalearrowback{
+    from{transform: translate(-50%,-50%) rotate(270deg) scale(1.25,1.25);}
+    to{transform: translate(-50%,-50%) rotate(270deg) scale(1,1);}
+  }
+
+
   li {
       float: right;
   }
