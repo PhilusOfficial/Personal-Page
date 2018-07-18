@@ -13,11 +13,15 @@ html>
 	<body class="page">
 
     <div id="cover" class="nodisplay"></div>
-    <div class="use pinkfloyd video big" ><video controls onclick="this.paused?this.play():this.pause();" loop src="pinkfloyd.mp4"><video></div>
-    <div class="use pandeldiavolo video big"><video onclick="this.paused?this.play():this.pause();" loop muted src="pandeldiavolo.mp4"><video></div>
-    <div class="use twosuns video small"><video onclick="this.paused?this.play():this.pause();" loop src="twosuns.mp4"><video></div>
-    <div class="use radiohead video small"><video onclick="this.paused?this.play():this.pause();" loop src="radiohead.mp4"><video></div>
-    <div class="use davidbowie video small"><video onclick="this.paused?this.play():this.pause();" loop src="davidbowie.mp4"><video></div>
+    <div class="use pinkfloyd video big" ><video onclick="this.paused?this.play():this.pause();" loop>
+      <source src="pinkfloyd.m4v">
+      <source src="pinkfloyd.webm" type="video/webm">
+      <source src="pinkfloyd.ogv" type="video/ogg">
+    <video></div>
+    <div class="use pandeldiavolo video big"><video onclick="this.paused?this.play():this.pause();" loop muted src="pandeldiavolo.m4v"><video></div>
+    <div class="use twosuns video small"><video onclick="this.paused?this.play():this.pause();" loop src="twosuns.m4v"><video></div>
+    <div class="use radiohead video small"><video onclick="this.paused?this.play():this.pause();" loop src="radiohead.m4v"><video></div>
+    <div class="use davidbowie video small"><video onclick="this.paused?this.play():this.pause();" loop src="davidbowie.m4v"><video></div>
 
       <div id="text1" class="noselect"><p>These are some animations of the covers of some music
         albums that me and some of my classmate made as part of a project at Politecnico di Milano.
